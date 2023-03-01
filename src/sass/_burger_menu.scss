@@ -1,0 +1,115 @@
+// .menu {
+//   margin-left: auto;
+//   position: absolute;
+//   top: 2px;
+//   right: 0;
+
+//   padding: 0;
+//   width: 30px;
+//   height: 30px;
+//   cursor: pointer;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border: 0;
+//   background-color: transparent;
+
+//   @media screen and (min-width: 768px) {
+//     display: none;
+//   }
+// }
+
+// .burger-icon {
+//   display: block;
+//   width: 25px;
+//   height: 3px;
+//   background-color: $main-text-color;
+//   border-radius: 1.35px;
+//   transition: all 0.35s ease;
+// }
+
+// .burger-icon::before,
+// .burger-icon::after {
+//   content: '';
+//   position: absolute;
+//   left: 2.5px;
+//   width: 25px;
+//   height: 3px;
+//   background-color: $main-text-color;
+//   border-radius: 1.35px;
+//   transition: all 0.7s ease;
+//   transform: translateX(-11.5px);
+// }
+
+// .burger-icon::before {
+//   transform: translateY(-6.4px);
+// }
+
+// .burger-icon::after {
+//   transform: translateY(6.4px);
+// }
+
+// .menu.active .burger-icon {
+//   background-color: transparent;
+// }
+
+// .menu.active .burger-icon::before {
+//   transform: rotate(45deg);
+//   background-color: $accent-txt-color;
+// }
+
+// .menu.active .burger-icon::after {
+//   transform: rotate(-45deg);
+//   background-color: $accent-txt-color;
+// }
+
+// .burger-container {
+//   position: absolute;
+//   top: 75px;
+//   right: 0;
+//   display: flex;
+//   padding: 25px;
+//   width: 100%;
+//   height: 100vh;
+//   background: $main-text-color;
+//   backdrop-filter: blur(15px);
+
+//   border-radius: 5px;
+//   opacity: 1;
+//   transform: scale(1);
+
+//   transition: opacity 0.35s ease, transform 0.35s ease;
+// }
+
+// .burger-container-is-hidden {
+//   opacity: 0.1;
+//   transform: scale(0.1);
+//   visibility: hidden;
+//   transition: all 0.35s ease;
+// }
+
+// .burger__btn {
+//   margin: auto;
+//   display: block;
+
+//   font-size: 18px;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   background-color: transparent;
+//   border: none;
+//   text-shadow: 1px 1px 1px $accent-txt-color;
+
+//   &:active {
+//     color: $main-text-color;
+//   }
+// }
+
+// .burger__btn-fav {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .burger__btn-fav-icon {
+//   fill: currentColor;
+//   margin-right: 5px;
+// }
