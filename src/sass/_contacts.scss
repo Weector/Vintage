@@ -1,22 +1,22 @@
-// .contacts__list {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 10px;
-//   list-style: none;
-// }
-// .contacts__list-right {
-//   align-items: end;
-// }
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.contacts__list-right {
+  align-items: end;
+}
 
-// .contacts__item {
-//   color: $main-text-color;
-//   text-decoration: none;
+.contacts__item {
+  color: $main-text-color;
+  text-decoration: none;
 
-//   &:hover {
-//     color: $accent-txt-color;
-//   }
-// }
+  &:hover {
+    color: $accent-txt-color;
+  }
+}
 
-// .contacts__icon {
-//   fill: $main-text-color;
-// }
+.contacts__icon {
+  fill: $main-text-color;
+}
