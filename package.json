@@ -1,0 +1,30 @@
+{
+  "name": "vintage",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Weector.github.io/Vintage",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Vintage/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weector/Vintage.git"
+  },
+  "keywords": [],
+  "author": "Victor Grossu <weekgrossu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weector/Vintage/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "parcel": "^2.8.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  }
+}
