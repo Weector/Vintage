@@ -1,7 +1,7 @@
 {
   "name": "Vintage",
   "version": "0.0.1",
-  "description": "",
+  "description": "new_project",
   "homepage": "https://Weector.github.io/Vintage",
   "scripts": {
     "start": "parcel src/*.html",
