@@ -19,12 +19,12 @@
   justify-content: center;
   padding-bottom: 20px;
 
-  @media screen and (min-width: 470px) {
-    gap: 20px;
+  @media screen and (min-width: 360px) {
+    gap: 30px;
   }
 
   @media screen and (min-width: 760px) {
-    gap: 20px;
+    gap: 30px;
   }
 }
 

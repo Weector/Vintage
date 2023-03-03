@@ -65,12 +65,14 @@
 
 .burger-container {
   position: absolute;
-  top: 60;
+  top: 55;
   right: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 25px;
   width: 100%;
-  min-height: 400px;
+  min-height: 410px;
   background: $bg-color;
   backdrop-filter: blur(15px);
 
