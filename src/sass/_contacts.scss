@@ -9,6 +9,9 @@
 }
 
 .contacts__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: $main-text-color;
   text-decoration: none;
 
