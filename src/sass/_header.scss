@@ -1,7 +1,6 @@
 .header {
   padding: 15px 0px 5px 0px;
-  // padding-bottom: 15px;
-  // margin-bottom: 20px;
+  background-color: $bg-color;
 
   @media screen and (max-width: 767px) {
     width: 100%;
@@ -11,7 +10,6 @@
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
-    // margin-bottom: 20px;
   }
 }
 
