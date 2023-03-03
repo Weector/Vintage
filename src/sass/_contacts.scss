@@ -2,21 +2,43 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  list-style: none;
 }
+
 .contacts__list-right {
   align-items: end;
 }
 
-.contacts__item {
+.contacts__link {
   color: $main-text-color;
   text-decoration: none;
 
   &:hover {
     color: $accent-txt-color;
+    fill: $accent-txt-color;
   }
 }
 
 .contacts__icon {
   fill: $main-text-color;
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+  &:hover {
+    color: $accent-txt-color;
+    fill: $accent-txt-color;
+  }
+}
+
+.contacts__list--burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contacts-list-burger__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

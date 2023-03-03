@@ -2,13 +2,13 @@
   background: rgb(241, 244, 211);
   background: radial-gradient(
     circle,
-    rgba(241, 244, 211, 1) 0%,
-    rgba(238, 207, 118, 1) 100%
+    rgb(242, 191, 156) 0%,
+    rgb(236, 165, 102) 100%
   );
+  background-image: url(../images/jpeg/vintageWork.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 400px;
-  margin: 20px 0px;
 }
