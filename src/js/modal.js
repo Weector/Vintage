@@ -28,7 +28,6 @@ modals.forEach(function (trigger) {
      `).join('')
 
       priceContainer.innerHTML = `
-      <button class="modal-close modal-exit">X</button>
       <h3 class="modal__title">${priceMarkupData.desc}</h3>
       <ul class="modal__list">${priceMarkup}</ul>`
 

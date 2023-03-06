@@ -32,6 +32,7 @@
     padding: 10px 10px 20px 10px;
     width: 100%;
     max-height: 65vh;
+    margin-top: 40px;
     border: 1px solid $main-text-color;
     overflow: scroll;
   }
@@ -43,6 +44,9 @@
     right: 50%;
     bottom: 15px;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 60px;
     transform: translateX(50%);
     outline: none;
@@ -65,7 +69,7 @@
 
 .modal__title {
   position: fixed;
-  top: 15px;
+  top: 75px;
   right: 50%;
   transform: translateX(50%);
   text-align: center;
@@ -83,6 +87,7 @@
   align-items: center;
   gap: 10px;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 .modal__markup-title {
@@ -98,20 +103,13 @@
 .modal__markup-name {
   letter-spacing: 1.2;
   min-width: 90px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .modal__markup-type {
   font-size: 10px;
   color: $accent-txt-color;
 }
-
-// .modal__markup-border {
-//   margin-bottom: 3px;
-//   border-bottom: 0.2px dotted $accent-txt-color;
-//   display: flex;
-//   width: 20%;
-// }
 
 .modal__markup-data {
   display: flex;
@@ -137,4 +135,8 @@
 .modal__group-title {
   margin-left: auto;
   margin-right: auto;
+}
+
+.modal__cross-icon {
+  fill: $main-text-color;
 }
