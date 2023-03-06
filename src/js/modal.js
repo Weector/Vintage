@@ -27,7 +27,7 @@ modals.forEach(function (trigger) {
         </li>
      `).join('')
 
-      priceContainer.innerHTML = `
+    priceContainer.innerHTML = `
       <h3 class="modal__title">${priceMarkupData.desc}</h3>
       <ul class="modal__list">${priceMarkup}</ul>`
 
