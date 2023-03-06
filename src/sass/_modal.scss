@@ -32,7 +32,7 @@
     position: relative;
     padding: 10px 10px 20px 10px;
     width: 100%;
-    max-height: 40vh;
+    max-height: 35vh;
     margin-top: 25px;
     border: 1px solid $main-text-color;
     overflow: scroll;
@@ -108,7 +108,7 @@
 .modal__markup-name {
   letter-spacing: 1.2;
   font-size: 14px;
-  min-width: 100px;
+  min-width: 90px;
 }
 
 .modal__markup-type {
