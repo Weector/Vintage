@@ -42,10 +42,14 @@
 }
 
 .services__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-right: 1px solid $main-text-color;
   border-left: 1px solid $main-text-color;
   padding: 5px;
   width: 95%;
+  min-height: 40px;
   border-radius: 15px;
   transition: box-shadow $anim;
   font-size: 12px;
