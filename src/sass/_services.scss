@@ -42,21 +42,20 @@
 }
 
 .services__info {
-  border-right: 0.5px solid $main-text-color;
-  border-left: 0.5px solid $main-text-color;
+  border-right: 1px solid $main-text-color;
+  border-left: 1px solid $main-text-color;
   padding: 5px;
-  min-width: 80%;
-  border-radius: 20px;
+  width: 95%;
+  border-radius: 15px;
   transition: box-shadow $anim;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
 
   &:hover {
-    border-right: 1px solid $accent-txt-color;
-    border-left: 1px solid $accent-txt-color;
+    border-right: 2px solid $accent-txt-color;
+    border-left: 2px solid $accent-txt-color;
     box-shadow: $accent-txt-color 0px 0.5px 4px;
-    font-weight: 900;
     color: $accent-txt-color;
   }
 }
