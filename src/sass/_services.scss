@@ -45,13 +45,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid $main-text-color;
-  border-left: 1px solid $main-text-color;
+  // border-right: 1px solid $main-text-color;
+  // border-left: 1px solid $main-text-color;
+  border-top: 1px solid $main-text-color;
+  border-bottom: 1px solid $main-text-color;
   padding: 5px;
   width: 95%;
   min-height: 38px;
   border-radius: 15px;
-  transition: box-shadow $anim;
+  transition: box-shadow $anim, border $anim;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
