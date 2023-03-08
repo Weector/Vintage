@@ -7,12 +7,12 @@
 
   @media screen and (max-width: 767px) {
     width: 100%;
-    box-shadow: $main-text-color 0px 1px 0px;
+    box-shadow: $main-text-color 0px 0.3px 0px;
   }
 
   @media screen and (min-width: 768px) {
     padding: 20px;
-    box-shadow: $main-text-color 0px 1px 0px;
+    box-shadow: $main-text-color 0px 0.3px 0px;
   }
 }
 .about__list {
@@ -42,8 +42,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: $main-text-color 0px 1px 0px;
-  border: 0.5px solid $main-text-color;
+  // box-shadow: $main-text-color 0px 1px 0px;
+  // border: 0.5px solid $main-text-color;
+  border-top: 0.1px solid $main-text-color;
+  border-bottom: 0.1px solid $main-text-color;
   border-radius: 20px;
   padding: 20px 10px 0px 10px;
 

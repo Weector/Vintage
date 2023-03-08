@@ -3,7 +3,9 @@
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-top: 1px solid $main-text-color;
+  // box-shadow: $main-text-color 0px 0.3px 0px;
+  border-radius: 10px;
+  border-top: 0.1px solid $main-text-color;
 }
 
 .footer__list {
