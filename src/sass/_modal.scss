@@ -27,7 +27,7 @@
     height: 100%;
   }
   &-container {
-    border-radius: 10px;
+    border-radius: 20px;
     background: $bg-color;
     position: relative;
     padding: 10px 10px 20px 10px;
@@ -41,10 +41,16 @@
     @media screen and (min-height: 440px) {
       max-height: 60vh;
     }
+
+    @media screen and (min-width: 768px) {
+      width: 80%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 60%;
+    }
   }
-  &-title {
-    text-align: center;
-  }
+
   &-close {
     position: fixed;
     right: 50%;
@@ -61,7 +67,7 @@
     font-weight: bold;
     cursor: pointer;
     border: 1px solid $main-text-color;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: Geneva;
 
     &:hover {
@@ -74,16 +80,18 @@
 
 .modal__title {
   position: fixed;
-  top: 90px;
+  top: 75px;
   right: 50%;
   transform: translateX(50%);
   text-align: center;
   letter-spacing: 2;
   text-transform: uppercase;
   font-size: 16px;
-  // border: 1px solid $main-text-color;
-  // border-radius: 10px;
   padding: 5px 10px 5px 10px;
+
+  @media screen and (min-width: 768px) {
+    top: 100px;
+  }
 }
 
 .modal__item {
@@ -99,7 +107,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 12px;
+  font-size: 10px;
 
   @media screen and (min-width: 340px) {
     font-size: 15px;
@@ -107,8 +115,8 @@
 }
 .modal__markup-name {
   letter-spacing: 1.2;
-  font-size: 14px;
-  min-width: 90px;
+  font-size: 12px;
+  min-width: 85px;
 }
 
 .modal__markup-type {
@@ -130,12 +138,6 @@
 .modal__markup-price {
   letter-spacing: 1.2;
 }
-
-// .modal__markup-name {
-//   display: flex;
-//   align-items: baseline;
-//   gap: 10px;
-// }
 
 .modal__group-title {
   margin-left: auto;

@@ -4,20 +4,21 @@
   position: fixed;
   top: -2px;
   left: 0px;
-  opacity: 0.99;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   z-index: 10;
+  width: 100%;
+  box-shadow: $main-text-color 0px 1px 0px;
 
-  @media screen and (max-width: 767px) {
-    width: 100%;
-    // box-shadow: $main-text-color 0px 1px 0px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   padding: 10px 15px 10px 15px;
+  // }
 
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
+    padding: 10px 15px 10px 15px;
   }
 }
 

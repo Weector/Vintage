@@ -1,6 +1,7 @@
 .contacts__list {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 10px;
 }
 
@@ -28,7 +29,7 @@
   margin-right: 5px;
 
   &:hover {
-    color: $accent-txt-color;
+    // color: $accent-txt-color;
     fill: $accent-txt-color;
   }
 }
@@ -46,4 +47,12 @@
 
 .contacts__item {
   font-size: 18px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }

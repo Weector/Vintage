@@ -151,7 +151,7 @@ export const price = [{
         { name: "Шоколадне SPA-Обгортання", price: "500грн", type: "", time: "30/60хв", },
         { name: "Styx гелями Cello Gel", price: "750грн", type: "", time: "60/80хв", },
         { name: "Styx віскі локально", price: "850грн", type: "ноги, сідниці, боки, живіт", time: "60/90хв", },
-        { name: "Styx віскі тотально", price: "1000грн", type: "все тіло", time: "60/90хв", },
+        { name: "Styx віскі", price: "1000грн", type: "все тіло", time: "60/90хв", },
         { name: "Бандажування  Freihaut Reducel", price: "850грн", type: "", time: "60/90хв", },
         { name: "", price: "", type: "", time: "", },
         { name: "КОМПЛЕКС ОБГОРТАННЯ:", price: "", type: "", time: "", },

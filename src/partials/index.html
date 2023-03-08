@@ -1,6 +1,6 @@
 <!-- <div class="page-bg"> -->
 <header>
-  <div class="header container">
+  <div class="header">
     <div class="header__contacts">
       <ul class="contacts__list">
         <li class="contacts__item">
@@ -11,7 +11,7 @@
             rel="noopener noreferrer"
             ><svg class="contacts__icon" width="14px" height="14px">
               <use href="./images/icons/icons.svg#icon-location"></use></svg
-            >м. Коломия, просп. Чорновола, 17
+            >Коломия, просп. В. Чорновола 17
           </a>
         </li>
         <li class="contacts__item">
@@ -52,7 +52,7 @@
               rel="noopener noreferrer"
               ><svg class="contacts__icon" width="14px" height="14px">
                 <use href="./images/icons/icons.svg#icon-location"></use></svg
-              >Коломия, пр. Чорновола, 17
+              >Коломия, пр. Чорновола 17
             </a>
           </li>
           <li class="contacts__item">
@@ -90,7 +90,7 @@
               rel="noopener noreferrer"
               ><svg class="contacts__icon" width="14px" height="14px">
                 <use href="./images/icons/icons.svg#icon-location"></use></svg
-              >Косів, вул. Небесної Сотні, 15/7а
+              >Косів, вул. Небесної Сотні 15/7а
             </a>
           </li>
           <li class="contacts__item">
@@ -168,7 +168,7 @@
             href="https://goo.gl/maps/QY7N2JByrbER8j4BA"
             target="_blank"
             rel="noopener noreferrer"
-            >м. Косів, вул. Небесної Сотні, 15/7а
+            >Косів, вул. Небесної Сотні 15/7а
             <svg class="contacts__icon" width="14px" height="14px">
               <use href="./images/icons/icons.svg#icon-location"></use></svg
           ></a>
@@ -214,39 +214,43 @@
 
   <section class="about container">
     <ul class="about__list">
-      <li>
+      <li class="about__item">
         <svg class="about__icon" width="100px" height="100px">
           <use href="./images/icons/icons.svg#icon-team"></use>
         </svg>
-        <p>
+        <p class="about__info">
           Команда професіоналів з більш ніж 30 співробітників, котрі заради
           вашої вроди прийдуть в свій вихідний!
         </p>
       </li>
-      <li>
-        <svg class="about__icon" width="100px" height="100px">
-          <use href="./images/icons/icons.svg#icon-favorite"></use>
-        </svg>
-        <p>
-          Простір краси котрий заряджає позитивним настроєм, дарує компліменти
-          та огортає своєю любовю!
-        </p>
-      </li>
-      <li>
+
+      <li class="about__item">
         <svg class="about__icon" width="100px" height="100px">
           <use href="./images/icons/icons.svg#icon-network"></use>
         </svg>
-        <p>
+        <p class="about__info">
           Сімʼя закладів, що цінує традиції та слідує за тендеціями. Саме час
           познайомитись з нами!
         </p>
       </li>
-      <li>
+
+      <li class="about__item">
         <svg class="about__icon" width="100px" height="100px">
           <use href="./images/icons/icons.svg#icon-education"></use>
         </svg>
-        <p>
+        <p class="about__info">
           Потужна школа, яка активно розвиває галузь та навчає б’юті майстрів.
+          Розвивайся з нами!
+        </p>
+      </li>
+
+      <li class="about__item">
+        <svg class="about__icon" width="100px" height="100px">
+          <use href="./images/icons/icons.svg#icon-favorite"></use>
+        </svg>
+        <p class="about__info">
+          Простір краси котрий заряджає позитивним настроєм, дарує компліменти
+          та огортає своєю любовю!
         </p>
       </li>
     </ul>
@@ -260,9 +264,8 @@
       </p>
     </div> -->
   </section>
-
+  <h2 class="services__title">Послуги</h2>
   <section class="services container">
-    <h2 class="services__title">Послуги</h2>
     <ul class="services__list">
       <li class="services__item" data-modal="modal-one" id="1">
         <img
@@ -272,7 +275,7 @@
           width="140px"
           height="160px"
         />
-        <p>Перукарські послуги</p>
+        <p class="services__info">Перукарські послуги</p>
       </li>
       <li class="services__item" data-modal="modal-one" id="2">
         <img
@@ -282,51 +285,7 @@
           width="140px"
           height="160px"
         />
-        <p>Нарощування волосся</p>
-      </li>
-
-      <li class="services__item" data-modal="modal-one" id="5">
-        <img
-          class="services__content"
-          src="/src/images/jpeg/vizash.jpeg"
-          alt="зображення"
-          width="140px"
-          height="160px"
-        />
-        <p>Візаж</p>
-      </li>
-
-      <li class="services__item" data-modal="modal-one" id="10">
-        <img
-          class="services__content"
-          src="/src/images/jpeg/barber.jpeg"
-          alt="зображення"
-          width="140px"
-          height="160px"
-        />
-        <p>Барбер</p>
-      </li>
-
-      <li class="services__item" data-modal="modal-one" id="4">
-        <img
-          class="services__content"
-          src="/src/images/jpeg/manikiur.jpeg"
-          alt="зображення"
-          width="140px"
-          height="160px"
-        />
-        <p>Манікюр</p>
-      </li>
-
-      <li class="services__item" data-modal="modal-one" id="3">
-        <img
-          class="services__content"
-          src="/src/images/jpeg/pedykiur.jpeg"
-          alt="зображення"
-          width="140px"
-          height="120px"
-        />
-        <p>Педикюр</p>
+        <p class="services__info">Нарощування волосся</p>
       </li>
 
       <li class="services__item" data-modal="modal-one" id="6">
@@ -337,7 +296,7 @@
           width="140px"
           height="160px"
         />
-        <p>Пермаментний макіяж</p>
+        <p class="services__info">Пермаментний макіяж</p>
       </li>
 
       <li class="services__item" data-modal="modal-one" id="8">
@@ -348,10 +307,54 @@
           width="140px"
           height="160px"
         />
-        <p>Массаж та фітобочка</p>
+        <p class="services__info">Массаж та фітобочка</p>
       </li>
 
-      <li class="services__item" data-modal="modal-one" id="7">
+      <li class="services__item" data-modal="modal-one" id="5">
+        <img
+          class="services__content"
+          src="/src/images/jpeg/vizash.jpeg"
+          alt="зображення"
+          width="140px"
+          height="160px"
+        />
+        <p class="services__info">Візаж</p>
+      </li>
+
+      <li class="services__item" data-modal="modal-one" id="10">
+        <img
+          class="services__content"
+          src="/src/images/jpeg/barber.jpeg"
+          alt="зображення"
+          width="140px"
+          height="160px"
+        />
+        <p class="services__info">Барбер</p>
+      </li>
+
+      <li class="services__item" data-modal="modal-one" id="4">
+        <img
+          class="services__content"
+          src="/src/images/jpeg/manikiur.jpeg"
+          alt="зображення"
+          width="140px"
+          height="160px"
+        />
+        <p class="services__info">Манікюр</p>
+      </li>
+
+      <li class="services__item" data-modal="modal-one" id="3">
+        <img
+          class="services__content"
+          src="/src/images/jpeg/pedykiur.jpeg"
+          alt="зображення"
+          width="140px"
+          height="120px"
+        />
+        <p class="services__info">Педикюр</p>
+      </li>
+
+      <!-- <li class="services__item" data-modal="modal-one" id="7">
         <img
           class="services__content"
           src="/src/images/jpeg/depilyacija.jpeg"
@@ -359,7 +362,7 @@
           width="140px"
           height="160px"
         />
-        <p>Депіляція</p>
+        <p class="services__info">Депіляція</p>
       </li>
 
       <li class="services__item" data-modal="modal-one" id="9">
@@ -370,8 +373,8 @@
           width="140px"
           height="160px"
         />
-        <p>Обгортання</p>
-      </li>
+        <p class="services__info">Обгортання</p>
+      </li> -->
     </ul>
   </section>
   <div class="modal container" id="modal-one">

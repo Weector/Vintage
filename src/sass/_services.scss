@@ -8,47 +8,97 @@
 }
 
 .services__title {
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .services__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
 
-  @media screen and (min-width: 360px) {
-    gap: 30px;
-  }
-
-  @media screen and (min-width: 760px) {
-    gap: 30px;
+  @media screen and (min-width: 768px) {
+    gap: 40px;
   }
 }
 
 .services__item {
-  width: 140px;
+  width: calc((100% - 30px) / 2);
+  height: 80%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
 
-  @media screen and (min-width: 470px) {
-    width: 210px;
-  }
-
-  @media screen and (min-width: 700px) {
-    width: 260px;
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 60px) / 5);
   }
 }
-.services__content {
-  height: 150px;
-  border: 4px solid $main-text-color;
-  border-radius: 20%;
-  margin-bottom: 10px;
 
-  @media screen and (min-width: 470px) {
-    width: 210px;
+.services__info {
+  border-right: 0.5px solid $main-text-color;
+  border-left: 0.5px solid $main-text-color;
+  padding: 5px;
+  min-width: 90%;
+  border-radius: 20px;
+  transition: box-shadow $anim;
+
+  &:hover {
+    border-right: 1px solid $accent-txt-color;
+    border-left: 1px solid $accent-txt-color;
+    box-shadow: $accent-txt-color 0px 0.5px 4px;
+
+    color: $accent-txt-color;
+  }
+}
+
+.services__content {
+  height: 160px;
+  width: 100%;
+  border: 0.5px solid $main-text-color;
+  box-shadow: $main-text-color 0px 1px 0px;
+  border-radius: 20px;
+
+  // &:hover {
+  //   scale: 1.08;
+  //   border: 1px solid $accent-txt-color;
+  //   box-shadow: $accent-txt-color 0px 1px 0px;
+  // }
+
+  @media screen and (min-width: 380px) {
+    height: 210px;
   }
 
-  @media screen and (min-width: 700px) {
-    width: 260px;
+  @media screen and (min-width: 480px) {
+    height: 230px;
+  }
+
+  @media screen and (min-width: 580px) {
+    height: 300px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 180px;
+  }
+
+  @media screen and (min-width: 900px) {
+    height: 200px;
+  }
+
+  @media screen and (min-width: 1050px) {
+    height: 240px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 280px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    height: 360px;
   }
 }
