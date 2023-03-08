@@ -48,12 +48,14 @@
   min-width: 85%;
   border-radius: 20px;
   transition: box-shadow $anim;
+  font-size: 10px;
+  font-weight: 700;
 
   &:hover {
     border-right: 1px solid $accent-txt-color;
     border-left: 1px solid $accent-txt-color;
     box-shadow: $accent-txt-color 0px 0.5px 4px;
-
+    font-weight: 900;
     color: $accent-txt-color;
   }
 }
