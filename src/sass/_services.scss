@@ -22,12 +22,13 @@
   width: 100%;
 
   @media screen and (min-width: 768px) {
-    gap: 40px;
+    gap: 30px;
   }
 }
 
 .services__item {
-  padding: 10px 5px 10px 5px;
+  // padding: 10px 5px 10px 5px;
+  padding: 15px;
   width: calc((100% - 30px) / 2);
   height: 80%;
   gap: 10px;
@@ -36,14 +37,15 @@
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
-  border-right: 0.1px solid $main-text-color;
-  border-left: 0.1px solid $main-text-color;
+  border-top: 0.1px solid $main-text-color;
+  border-bottom: 0.1px solid $main-text-color;
   border-radius: 20px;
   transition: scale $anim, box-shadow $anim;
 
   @media screen and (min-width: 768px) {
-    width: calc((100% - 60px) / 5);
-    padding: 20px;
+    // width: calc((100% - 60px) / 5);
+    width: calc((100% - 5px) / 5);
+    padding: 15px;
   }
 
   &:hover {
@@ -82,7 +84,7 @@
 }
 
 .services__content {
-  height: 160px;
+  height: 140px;
   width: 100%;
   border: 0.5px solid $main-text-color;
   box-shadow: $main-text-color 0px 1px 0px;
@@ -95,11 +97,11 @@
   // }
 
   @media screen and (min-width: 380px) {
-    height: 210px;
+    height: 190px;
   }
 
   @media screen and (min-width: 480px) {
-    height: 230px;
+    height: 220px;
   }
 
   @media screen and (min-width: 580px) {
@@ -107,22 +109,22 @@
   }
 
   @media screen and (min-width: 768px) {
-    height: 180px;
+    height: 160px;
   }
 
   @media screen and (min-width: 900px) {
-    height: 200px;
+    height: 180px;
   }
 
   @media screen and (min-width: 1050px) {
-    height: 240px;
+    height: 220px;
   }
 
   @media screen and (min-width: 1200px) {
-    height: 280px;
+    height: 260px;
   }
 
   @media screen and (min-width: 1600px) {
-    height: 360px;
+    height: 340px;
   }
 }

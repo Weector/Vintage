@@ -4,15 +4,17 @@
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  border-bottom: 0.1px solid $main-text-color;
+  border-radius: 10px;
 
   @media screen and (max-width: 767px) {
     width: 100%;
-    box-shadow: $main-text-color 0px 0.3px 0px;
+    // box-shadow: $main-text-color 0px 0.3px 0px;
   }
 
   @media screen and (min-width: 768px) {
     padding: 20px;
-    box-shadow: $main-text-color 0px 0.3px 0px;
+    // box-shadow: $main-text-color 0px 0.3px 0px;
   }
 }
 .about__list {
