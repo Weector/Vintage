@@ -3,12 +3,13 @@
 
   @media screen and (max-width: 767px) {
     width: 100%;
-    box-shadow: $main-text-color 0px 1px 0px;
+    box-shadow: $main-text-color 0px 0.5px 0px;
   }
 }
 
 .services__title {
   text-align: center;
+  margin-top: 15px;
 }
 
 .services__list {
@@ -44,7 +45,7 @@
   border-right: 0.5px solid $main-text-color;
   border-left: 0.5px solid $main-text-color;
   padding: 5px;
-  min-width: 90%;
+  min-width: 85%;
   border-radius: 20px;
   transition: box-shadow $anim;
 
