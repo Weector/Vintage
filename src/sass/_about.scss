@@ -52,10 +52,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: calc((100% - 20px) / 4);
-  }
-
-  @media screen and (min-width: 768px) {
+    width: calc((100% - 5px) / 4);
     padding: 20px 5px 0px 5px;
   }
 }
