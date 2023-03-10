@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   transform: opacity $anim;
-  z-index: 2;
+  z-index: 10;
   box-shadow: $main-text-color 0px 1px 0px;
 
   &.open {
@@ -37,7 +37,7 @@
     margin-top: 15px;
     border: 1px solid $main-text-color;
     overflow: scroll;
-    z-index: 1000;
+    z-index: 20;
 
     @media screen and (max-height: 400px) {
       margin-top: 0px;
