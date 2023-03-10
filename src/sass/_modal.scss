@@ -31,20 +31,22 @@
     border-radius: 20px;
     background: $bg-color;
     position: relative;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 5px 20px 5px;
     width: 100%;
     max-height: 35vh;
     margin-top: 25px;
     border: 1px solid $main-text-color;
     overflow: scroll;
-    margin-bottom: 20px;
 
     @media screen and (min-height: 440px) {
       max-height: 60vh;
+      padding: 10px 20px 20px 20px;
     }
 
     @media screen and (min-width: 768px) {
       width: 80%;
+      padding: 10px 40px 10px 40px;
+      margin-top: 55px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -71,10 +73,13 @@
     border-radius: 20px;
     font-family: Geneva;
     width: 50px;
+    fill: $main-text-color;
 
     &:hover {
       color: $accent-txt-color;
+      fill: $accent-txt-color;
       border: 1px solid $accent-txt-color;
+      box-shadow: $accent-txt-color 0px 0.5px 4px;
       // scale: 1.1;
     }
   }
@@ -92,11 +97,11 @@
   padding: 5px 10px 5px 10px;
 
   @media screen and (min-width: 768px) {
-    top: 95px;
+    top: 90px;
   }
 
   @media screen and (min-width: 1200px) {
-    top: 105px;
+    top: 115px;
   }
 }
 
@@ -122,12 +127,25 @@
 .modal__markup-name {
   letter-spacing: 1.2;
   font-size: 12px;
-  min-width: 85px;
+  min-width: 95px;
+  @media screen and (min-width: 400px) {
+    min-width: 120px;
+    font-size: 12px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 140px;
+    font-size: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 200px;
+    font-size: 15px;
+  }
 }
 
 .modal__markup-type {
   font-size: 10px;
   color: $accent-txt-color;
+  min-width: 100px;
 }
 
 .modal__markup-data {
@@ -150,6 +168,10 @@
   margin-right: auto;
 }
 
-.modal__cross-icon {
-  fill: $main-text-color;
-}
+// .modal__cross-icon {
+//   fill: $main-text-color;
+
+//   &:hover {
+//     fill: $accent-txt-color;
+//   }
+// }

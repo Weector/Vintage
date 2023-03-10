@@ -3,10 +3,26 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 240px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 320px;
+  }
 }
 
 .contacts__list-right {
   align-items: end;
+
+  @media screen and (min-width: 768px) {
+    min-width: 240px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 320px;
+  }
 }
 
 .contacts__link {
@@ -14,6 +30,7 @@
   align-items: center;
   justify-content: center;
   color: $main-text-color;
+  fill: $main-text-color;
   text-decoration: none;
 
   &:hover {
@@ -23,15 +40,8 @@
 }
 
 .contacts__icon {
-  fill: $main-text-color;
-
   margin-left: 5px;
   margin-right: 5px;
-
-  &:hover {
-    // color: $accent-txt-color;
-    fill: $accent-txt-color;
-  }
 }
 
 .contacts__list--burger {
