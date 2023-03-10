@@ -38,6 +38,10 @@
     border: 1px solid $main-text-color;
     overflow: scroll;
 
+    @media screen and (max-height: 400px) {
+      margin-top: 0px;
+    }
+
     @media screen and (min-height: 360px) {
       padding: 10px 20px 20px 20px;
     }
