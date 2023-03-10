@@ -80,7 +80,6 @@
       fill: $accent-txt-color;
       border: 1px solid $accent-txt-color;
       box-shadow: $accent-txt-color 0px 0.5px 4px;
-      // scale: 1.1;
     }
   }
 }
@@ -127,17 +126,17 @@
 .modal__markup-name {
   letter-spacing: 1.2;
   font-size: 12px;
-  min-width: 95px;
+  min-width: 80px;
   @media screen and (min-width: 400px) {
-    min-width: 120px;
+    min-width: 100px;
     font-size: 12px;
   }
   @media screen and (min-width: 768px) {
-    min-width: 140px;
+    min-width: 120px;
     font-size: 15px;
   }
   @media screen and (min-width: 1200px) {
-    min-width: 200px;
+    min-width: 180px;
     font-size: 15px;
   }
 }
@@ -145,7 +144,18 @@
 .modal__markup-type {
   font-size: 10px;
   color: $accent-txt-color;
-  min-width: 100px;
+  min-width: 80px;
+
+  @media screen and (min-width: 400px) {
+    min-width: 100px;
+    font-size: 12px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 120px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 180px;
+  }
 }
 
 .modal__markup-data {
