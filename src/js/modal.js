@@ -19,7 +19,6 @@ modals.forEach(function (trigger) {
                 <h5 class="modal__markup-name">${item.name}</h5>
                 <span class="modal__markup-type">${item.type}</span>
             </div>
-            <div class="modal__markup-border"></div>
             <div class="modal__markup-data">
                 <span class="modal__markup-time">${item.time}</span>
                 <span class="modal__markup-price">${item.price}</span>        
