@@ -34,7 +34,7 @@
     padding: 10px 5px 20px 5px;
     width: 100%;
     max-height: 35vh;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 1px solid $main-text-color;
     overflow: scroll;
 
@@ -134,12 +134,12 @@
   min-width: 80px;
 
   @media screen and (min-width: 340px) {
-    max-width: 130px;
+    max-width: 140px;
     min-width: 120px;
     font-size: 14px;
   }
   @media screen and (min-width: 380px) {
-    min-width: 180px;
+    min-width: 150px;
     font-size: 14px;
   }
   // @media screen and (min-width: 768px) {
