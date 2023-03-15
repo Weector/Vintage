@@ -44,12 +44,11 @@
 
   @media screen and (min-width: 400px) {
     width: calc(100% / 4);
-    // min-height: 180px;
     font-size: 8px;
   }
 
   @media screen and (min-width: 555px) {
-    width: calc(100% / 5);
+    width: calc((100%) / 5);
   }
 
   &:hover {
@@ -79,11 +78,7 @@
   //   font-size: 7px;
   // }
   @media screen and (min-width: 375px) {
-    font-size: 7px;
-  }
-
-  @media screen and (min-width: 425px) {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   @media screen and (min-width: 768px) {
@@ -99,7 +94,7 @@
 }
 
 .services__content {
-  height: 160px;
+  height: 180px;
   width: 100%;
   border: 0.5px solid $main-text-color;
   box-shadow: $main-text-color 0px 1px 0px;
@@ -110,10 +105,6 @@
     scale: 1.08;
     border: 1px solid $accent-txt-color;
     box-shadow: $accent-txt-color 0px 0.5px 4px;
-  }
-
-  @media screen and (min-width: 700px) {
-    height: 180px;
   }
 
   @media screen and (min-width: 920px) {
