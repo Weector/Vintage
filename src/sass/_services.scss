@@ -33,7 +33,6 @@
 .services__item {
   padding: 10px;
   width: calc((100% - 30px) / 2);
-  // min-height: 80%;
   flex-grow: 1;
   gap: 10px;
   display: flex;
@@ -46,7 +45,7 @@
   border-radius: 20px;
   transition: scale $anim, box-shadow $anim;
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 420px) {
     width: calc(100% / 4);
     font-size: 8px;
   }
