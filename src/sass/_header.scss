@@ -12,10 +12,6 @@
   border-bottom: 0.1px solid $main-text-color;
   opacity: 0.99;
 
-  // @media screen and (min-width: 768px) {
-  //   padding: 10px 15px 10px 15px;
-  // }
-
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -35,10 +31,6 @@
     letter-spacing: 15px;
     font-size: 30px;
   }
-  // @media screen and (min-width: 1200px) {
-  //   letter-spacing: 20px;
-  //   font-size: 40px;
-  // }
 }
 
 .header__description {
@@ -47,10 +39,6 @@
     letter-spacing: 6px;
     font-size: 18px;
   }
-  // @media screen and (min-width: 1200px) {
-  //   letter-spacing: 12px;
-  //   font-size: 24px;
-  // }
 }
 
 .header__contacts {
