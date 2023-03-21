@@ -92,7 +92,7 @@
 .modal__title {
   position: fixed;
   min-width: 300px;
-  top: 80px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -101,7 +101,7 @@
   font-size: 16px;
   padding: 5px 10px 5px 10px;
   color: $accent-txt-color;
-
+  z-index: 999999999;
   @media screen and (min-width: 768px) {
     top: 100px;
   }
