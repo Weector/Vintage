@@ -28,7 +28,7 @@
     height: 100%;
   }
   &-container {
-    position: relative;
+    // position: relative;
     border-radius: 20px;
     background: $bg-color;
     padding: 10px 5px 20px 5px;
@@ -92,7 +92,7 @@
 .modal__title {
   position: fixed;
   min-width: 300px;
-  top: 100px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

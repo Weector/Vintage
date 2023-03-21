@@ -2,6 +2,7 @@ import { price } from "../../assets/price/price";
 
 const modals = document.querySelectorAll("[data-modal]");
 const priceContainer = document.querySelector('.modal-container')
+const modalBg = document.querySelector('.modal-bg')
 const body = document.querySelector("body")
 
 
@@ -27,8 +28,11 @@ modals.forEach(function (trigger) {
      `).join('')
 
     priceContainer.innerHTML = `
-      <h3 class="modal__title">${priceMarkupData.desc}</h3>
       <ul class="modal__list">${priceMarkup}</ul>`
+    
+        modalBg.innerHTML = `
+      <h3 class="modal__title">${priceMarkupData.desc}</h3>
+   `
 
       const modal = document.getElementById(trigger.dataset.modal);
       modal.classList.add("open");
