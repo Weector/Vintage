@@ -10,6 +10,7 @@
   z-index: 1000;
   width: 100vw;
   border-bottom: 0.1px solid $main-text-color;
+  outline: 0;
   opacity: 0.95;
 
   @media screen and (min-width: 768px) {
