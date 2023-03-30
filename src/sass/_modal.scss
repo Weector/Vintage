@@ -22,10 +22,12 @@
   }
   &-bg {
     position: absolute;
+    top: -1px;
+    left: 0;
     background: $bg-color;
     opacity: 0.99;
     width: 100vw;
-    height: 100vh;
+    height: 102vh;
   }
   &-container {
     border-radius: 20px;

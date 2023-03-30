@@ -9,11 +9,12 @@ const body = document.querySelector("body")
 
 modals.forEach(function (trigger) {
   trigger.addEventListener("click", function (event) {
-      event.preventDefault();
+    event.preventDefault();
+    body.classList.add("no-scroll")
 
       const [priceMarkupData] = price.filter(item => item.id === trigger.id)
 
-      body.classList.add("no-scroll")
+
       const priceMarkup = priceMarkupData.data.map(item => `
         <li class="modal__item"> 
             <div class="modal__markup-title">
