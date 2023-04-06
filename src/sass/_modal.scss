@@ -1,7 +1,7 @@
 .modal {
   position: fixed;
   width: 100vw;
-  height: 102vh;
+  height: 100%;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
@@ -27,7 +27,7 @@
     background: $bg-color;
     opacity: 0.99;
     width: 100vw;
-    height: 102vh;
+    height: 100%;
   }
   &-container {
     border-radius: 20px;
